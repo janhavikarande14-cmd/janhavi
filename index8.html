@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Future City 2099</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+        color: white;
+    }
+
+    /* Navbar */
+    nav {
+        position: fixed;
+        width: 100%;
+        background: rgba(0,0,0,0.7);
+        padding: 15px;
+        text-align: center;
+        z-index: 1000;
+    }
+
+    nav a {
+        color: cyan;
+        margin: 0 20px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        color: white;
+    }
+
+    /* Hero Section */
+    .hero {
+        height: 100vh;
+        background: url('https://images.unsplash.com/photo-1549921296-3a6b3c1c8b56') no-repeat center/cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 4em;
+        background: rgba(0,0,0,0.5);
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    /* Sections */
+    section {
+        padding: 80px 20px;
+        text-align: center;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        font-size: 2.5em;
+        color: cyan;
+    }
+
+    /* Cards */
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .card {
+        background: rgba(255,255,255,0.1);
+        padding: 20px;
+        width: 280px;
+        border-radius: 15px;
+        box-shadow: 0 0 15px cyan;
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-10px) scale(1.05);
+    }
+
+    /* Gallery */
+    .gallery img {
+        width: 300px;
+        height: 200px;
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px cyan;
+    }
+
+    /* Timeline */
+    .timeline {
+        max-width: 800px;
+        margin: auto;
+        text-align: left;
+    }
+
+    .timeline div {
+        margin: 20px 0;
+        padding: 15px;
+        background: rgba(0,0,0,0.5);
+        border-left: 4px solid cyan;
+    }
+
+    /* Contact */
+    form input, form textarea {
+        width: 80%;
+        padding: 10px;
+        margin: 10px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    form button {
+        padding: 10px 20px;
+        background: cyan;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    form button:hover {
+        background: white;
+    }
+
+    footer {
+        background: black;
+        padding: 20px;
+        text-align: center;
+    }
+
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <a href="#home">Home</a>
+    <a href="#features">Features</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#timeline">Timeline</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- Hero -->
+<div class="hero" id="home">
+    <h1>🌆 FUTURE CITY 2099</h1>
+</div>
+
+<!-- Features -->
+<section id="features">
+    <h2>City Features</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>🚗 Flying Cars</h3>
+            <p>Advanced transportation systems in the sky.</p>
+        </div>
+        <div class="card">
+            <h3>🏙 Smart Buildings</h3>
+            <p>AI-powered eco-friendly skyscrapers.</p>
+        </div>
+        <div class="card">
+            <h3>🤖 Robotics</h3>
+            <p>Robots helping humans in daily life.</p>
+        </div>
+        <div class="card">
+            <h3>🌱 Green Energy</h3>
+            <p>100% renewable energy powered city.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Gallery -->
+<section id="gallery">
+    <h2>City Gallery</h2>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d">
+        <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e">
+        <img src="https://images.unsplash.com/photo-1494526585095-c41746248156">
+    </div>
+</section>
+
+<!-- Timeline -->
+<section id="timeline">
+    <h2>Future Timeline</h2>
+    <div class="timeline">
+        <div><strong>2030:</strong> Smart homes become common.</div>
+        <div><strong>2050:</strong> Flying cars launched worldwide.</div>
+        <div><strong>2075:</strong> AI governs city systems.</div>
+        <div><strong>2099:</strong> Fully automated futuristic city.</div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Your Name"><br>
+        <input type="email" placeholder="Your Email"><br>
+        <textarea placeholder="Message"></textarea><br>
+        <button>Send</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    © 2099 Future City | Designed by You 🚀
+</footer>
+
+</body>
+</html>
+🔥 What’s new in this version:
+Fixed navigation bar 🧭
+Full-screen hero section 🌃
+Feature cards with hover effects
+Image gallery 🖼
+Future timeline ⏳
+Contact form 📩
+Clean modern UI
+
+If you want an even next-level version, I can add:
+
+🌌 moving stars background
+🚁 animated flying cars
+💡 dark/light mode toggle
+⚡ JavaScript effects (typing text, sliders)
+
+Just tell me 👍
